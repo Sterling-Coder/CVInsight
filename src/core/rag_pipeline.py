@@ -47,7 +47,7 @@ class RAGConfig:
     MAX_LENGTH: int = 150
     MIN_LENGTH: int = 30
     NUM_BEAMS: int = 4
-    INITIAL_FETCH_K: int = 10
+    INITIAL_FETCH_K: int = 20
     FINAL_RERANKED_K: int = 5
     SIMILARITY_THRESHOLD: float = 0.6
     CACHE_TTL: int = 3600
